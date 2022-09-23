@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad práctica obligatoria - BS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACION -->
+
+    <nav class="navbar navbar-expand-lg bg-light " style="background-color: red;">
+        <div class="container-fluid" >
+          <a class="navbar-brand letranav" href="#">Codo a Codo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse alineacion" id="navbarSupportedContent">
+            <div class="enlaces">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active letranav" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link letranav" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Desactivado</a>
+                </li>
+              </ul>
+            </div>  
+            <div class="formulario">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- TARJETAS -->
+
+      <div class="tarjetaslocas flex-fill">
+            <div class="card chtml5 h-100">
+                <div class="altoimgcard">
+                    <img src="https://blog.ida.cl/wp-content/uploads/sites/5/2012/05/encabezado1.jpg" class="card-img-top" alt="html5">
+                </div>
+                <div class="card-body">
+                    <span class="titulo">titulo 1</span><br>
+                    <span class="contenido">Contenido de Card</span><br><br>
+                    <p class="actualizacion">Ultima actualizacion 1</p>
+                </div>
+            </div>
+
+            <div class="card ccss3 h-100">
+                <div class="altoimgcard">
+                    <img src="https://www.alexmedina.net/wp-content/uploads/2020/08/css_blog.png" class="card-img-top" alt="css3">
+                </div>    
+                <div class="card-body">
+                  <span class="titulo">titulo 2</span><br>
+                  <span class="contenido">Contenido de Card</span><br><br>
+                  <p class="actualizacion">Ultima actualizacion 1</p>
+              </div>
+          </div>
+
+            <div class="card cbs h-100">
+                <div class="altoimgcard">
+                    <img src="https://serv3.raiolanetworks.es/blog/wp-content/uploads/bootstrap-social-share.png" class="card-img-top" alt="bs">
+                </div>
+                <div class="card-body">
+                  <span class="titulo">titulo 3</span><br>
+                  <span class="contenido">Contenido de Card</span><br><br>
+                  <p class="actualizacion">Ultima actualizacion 1</p>
+              </div>
+          </div>
+      </div>
+
+
+    <!-- FORMULARIO REGISTRO Y CONTRASEÑA -->
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Nunca comparta su email.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Verificar</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+
+
+    <!-- NO AGREGAR NADA DEBAJO DE ESTA LINEA -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
